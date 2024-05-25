@@ -5,7 +5,7 @@ import pickle
 import streamlit.components.v1 as components
 
 # Load the model
-filename = 'best_svr_model.pkl'
+filename = 'best_model.pkl'
 try:
     with open(filename, 'rb') as file:
         loaded_model = pickle.load(file)
